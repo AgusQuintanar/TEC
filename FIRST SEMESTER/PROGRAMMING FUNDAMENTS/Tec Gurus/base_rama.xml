@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raiz>
+    <rama id="1">
+        <datos id="1">Trabajos en Tec Gurus</datos>
+        <datos id="2"/>
+    </rama>
+    <rama id="2">
+        <datos id="1">
+            <nombre>Félix</nombre>
+            <apellido>Urbina</apellido>
+        </datos>
+        <datos id="2">
+            <nombre>Jorge</nombre>
+            <apellido>Urbina</apellido>
+        </datos>
+    </rama>
+    <rama id="3">
+        <datos id="1"/>
+        <datos id="2">
+            <mensaje>Este es el mensaje que se le da como firma de correo electrónico</mensaje>
+        </datos>
+    </rama>
+</raiz>

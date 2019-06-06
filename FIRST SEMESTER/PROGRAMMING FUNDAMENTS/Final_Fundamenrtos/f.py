@@ -1,0 +1,67 @@
+a = '''
+  BIOSCENTS
+  COMEX
+  Clasificar
+  Fetesa
+  Frescamesa
+  GPremier
+  IVEE
+  Loyga
+  MREPS
+  Marduk
+  Mexiled
+  Natural
+  NaturalScentsCoperativa
+  NaturalScentsMexico
+  NaturalTrends
+  PatricePatria
+  PatriceProvidencia
+  Productivity
+  Pylsa
+  SIIL_SYE
+  SaaS_demos
+  SanDerma
+  Serur
+  Suajespress
+  TireDirect
+  Trank
+  VisionCare
+  aislantes_y_empaques
+  alejo
+  alethia
+  atmosfera
+  bioener
+  blen
+  calidad_vida
+  cepasa
+  comerdeg
+  comoplast
+  comunicel
+  cra
+  dlb
+  ethnos
+  etytec
+  eurtiz
+  foxter
+  hidroagua
+  lombra
+  lubritem
+  macopisa
+  marel
+  mhp
+  modul
+  naturalstore
+  netonline
+  neuroservice
+  planelec
+  starkell
+  tecnocor
+  temp
+  tracto
+  val_b_loon
+  victor_marlon
+  vistaBella
+'''
+
+b = ''.join([x for x in a])
+print(b)

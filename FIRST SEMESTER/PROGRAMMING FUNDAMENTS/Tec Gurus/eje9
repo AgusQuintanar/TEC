@@ -1,0 +1,36 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio 9
+
+def suma_mayor_que_20 (a=0,b=0)
+    suma_mayor_que_20 = 0
+    suma_mayor_que_20 = int(a) + int (b) - 5
+    residuo = suma_mayor_que_20 % 2
+    
+    if  (residuo == 0):
+        print ("%d, es par" % suma_mayor_que_20)
+    else: 
+        print (str(suma_mayor_que_20) +", es impar")
+    
+    
+num1 = raw_input("Ingrese primer numero entre 2 y 20: ")
+num2 = raw_input("Ingrese segundo numero entre 2 y 20: ")
+suma = int(num1)+int(num2)
+    
+
+if (suma >20):
+    suma = suma - 5
+    residuo = suma % 2
+    if  (residuo == 0):
+        print ("%d, es par" % suma)
+    else: 
+        print (str(suma) +", es impar")
+else: 
+    suma = suma*5
+    residuo = suma % 2
+    if (residuo == 0):
+        print ("%d, es par" % suma)
+    else: 
+        print (str(suma) +", es impar")
+
+

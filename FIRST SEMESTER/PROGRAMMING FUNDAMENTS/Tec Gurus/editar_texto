@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio 
+archivo = open('Lorem Ipsum','r')
+archivo_1 = open('archivo1.txt','w')
+mitexto=""
+for l in archivo:
+    mitexto += l.strip()+"\n\tEste es mi texto adicional\n\n"
+archivo_1.write(mitexto)
+archivo.close()
+archivo_1.close()

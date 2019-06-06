@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*
+
+class miclase ():
+	def m1 (self):
+		return "Este es mi metodo uno"
+	
+	def m2 (self):
+		return "Este es mi metodo dos"
+		
+c	=	miclase ()
+print c.m1 ()
+print c.m2 ()
+
+print (" tarea:"+ \n acabar lo de fecha matrizy los 3 ejercicios de funciones y los que manden al correo"

@@ -1,0 +1,14 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio correo electronico
+
+import re
+
+mail = raw_input(" Ingrese su correo electronico: ")
+print "Introdujo: "+mail
+if re.match (r'(a-zA-Z)+(0-9|\w|\d\|\.|\_|\-)+@+(0-9|\w|\d\|\.|\_|\-)+\.+(.com|.org|.net)',mail):
+    print "Es un correo valido"
+else: 
+    print "No es un correo valido"
+        
+

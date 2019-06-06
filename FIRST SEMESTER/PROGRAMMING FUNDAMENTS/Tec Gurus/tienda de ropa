@@ -1,0 +1,114 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+print "Bienvenido a Marti, le mostramos la variedad de articulos con los que disponemos"
+print "(1)Pantalon de vestir, (2)camisa de vestir, (3)jeans, (4)playera, (5)sudadera"
+
+p1 = 449.99
+p2 = 349.99
+p3=399.99
+p4=199.99
+p5=299.99
+
+art1 = raw_input("Ingrese el codigo de su primer articulo")
+art12 = raw_input("Ingrese la talla que desea (S),(M),(L)")
+art13 = raw_input("Ingrese si desea estampado o uniculor (E),(U)")
+art14 = raw_input("Ingrese la cantidad que desea comprar")
+ans1 = raw_input("¿Desea otro articulo? (S/N)")
+
+if ans1 == "S":
+    art2 = raw_input("Ingrese el codigo de su segundo articulo")
+    art22 = raw_input("Ingrese la talla que desea (S),(M),(L)")
+    art23 = raw_input("Ingrese la cantidad que desea comprar")
+    ans2 = raw_input("¿Desea otro articulo? (S/N)")
+    
+    if ans2 == "S":
+        art3 = raw_input("Ingrese el codigo de su tercer articulo")
+        art32 = raw_input("Ingrese la talla que desea (S),(M),(L)")
+        art33 = raw_input("Ingrese la cantidad que desea comprar")
+        ans3 = raw_input("¿Desea otro articulo? (S/N)")
+        
+        if ans3 == "S":
+            art4 = raw_input("Ingrese el codigo de su tercer articulo")
+            art42 = raw_input("Ingrese la talla que desea (S),(M),(L)")
+            art43 = raw_input("Ingrese la cantidad que desea comprar")
+            ans4 = raw_input("¿Desea otro articulo? (S/N)")
+            
+            if ans4 == "S":
+                art5 = raw_input("Ingrese el codigo de su tercer articulo")
+                art52 = raw_input("Ingrese la talla que desea (S),(M),(L)")
+                art53 = raw_input("Ingrese la cantidad que desea comprar")
+                
+else:
+    if art1 == 1 and art12 == "S" and art13 =="E":
+        a= p1 + 0.05*p1
+    if art1 == 1 and art12 == "S" and art13 =="U":
+        a= p1
+    if art1 == 1 and art12 == "M" and art13 =="E":
+        a= p1 + 50 + 0.05*p1
+    if art1 == 1 and art12 == "M" and art13 =="U":
+        a= p1+50
+    if art1 == 1 and art12 == "L" and art13 =="E":
+        a= p1 + 0.05*p1+ 100
+    if art1 == 1 and art12 == "L" and art13 =="U":
+        a= p1 + 100
+    
+    if art1 == 2 and art12 == "S" and art13 =="E":
+        a= p2 + 0.05*p2
+    if art1 == 2 and art12 == "S" and art13 =="U":
+        a= p2
+    if art1 == 2 and art12 == "M" and art13 =="E":
+        a= p2 + 50 +0.05*p2
+    if art1 == 2 and art12 == "M" and art13 =="U":
+        a= p2+50
+    if art1 == 2 and art12 == "L" and art13 =="E":
+        a= p2 + 0.05*p2 + 100
+    if art1 == 2 and art12 == "L" and art13 =="U":
+        a= p2 + 100
+        
+    if art1 == 3 and art12 == "S" and art13 =="E":
+        a= p3 + 0.05*p3
+    if art1 == 3 and art12 == "S" and art13 =="U":
+        a= p3
+    if art1 == 3 and art12 == "M" and art13 =="E":
+        a= p3 +0.05*p3 + 50
+    if art1 == 3 and art12 == "M" and art13 =="U":
+        a= p3+50
+    if art1 == 3 and art12 == "L" and art13 =="E":
+        a= p3 + 0.05*p3 + 100
+    if art1 == 3 and art12 == "L" and art13 =="U":
+        a= p3 + 100
+        
+    if art1 == 4 and art12 == "S" and art13 =="E":
+        a= p4 + 0.05*p4
+    if art1 == 4 and art12 == "S" and art13 =="U":
+        a= p4
+    if art1 == 4 and art12 == "M" and art13 =="E":
+        a= p4 + 0.05*p4 + 50
+    if art1 == 4 and art12 == "M" and art13 =="U":
+        a= p4+50
+    if art1 == 4 and art12 == "L" and art13 =="E":
+        a= p4 + 0.05*p4 + 100
+    if art1 == 4 and art12 == "L" and art13 =="U":
+        a= p4 + 100
+    
+    if art1 == 5 and art12 == "S" and art13 =="E":
+        a= p5 + 0.05*p5
+    if art1 == 5 and art12 == "S" and art13 =="U":
+        a= p5
+    if art1 == 5 and art12 == "M" and art13 =="E":
+        a= p5 + 0.05*p5 + 50
+    if art1 == 5 and art12 == "M" and art13 =="U":
+        a= p5+50
+    if art1 == 5 and art12 == "L" and art13 =="E":
+        a= p5 +  0.05*p5 + 100
+    if art1 == 5 and art12 == "L" and art13 =="U":
+        a= p5 + 100
+        
+    sub1 = a*art14
+    print "El subtotal es de " + sub1
+    print "El total es de "+ sub1*1.16
+    
+    
+        
+            
+

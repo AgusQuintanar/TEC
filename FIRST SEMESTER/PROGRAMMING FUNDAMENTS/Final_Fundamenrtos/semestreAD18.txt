@@ -1,0 +1,45 @@
+|    Alumno    | Calificación | Leyenda     |
+ ––––––––––––––––––––––––––––––––––––––––––– 
+|Juan          |      80      |  APROBADO   |
+|Pedro         |      74      |  APROBADO   |
+|Manuel        |      79      |  APROBADO   |
+|Tamara        |      79      |  APROBADO   |
+|Fernando      |      80      |  APROBADO   |
+|Fátima        |      75      |  APROBADO   |
+|Gumercindo    |      75      |  APROBADO   |
+|Sonia         |      83      |  APROBADO   |
+|Magdalena     |      80      |  APROBADO   |
+|Sara          |      80      |  APROBADO   |
+|Ricardo       |      76      |  APROBADO   |
+|Karla         |      84      |  APROBADO   |
+|Yadira        |      77      |  APROBADO   |
+|Teresa        |      85      |  APROBADO   |
+|Pancracio     |      65      |  REPROBADO  |
+|Uriel         |      78      |  APROBADO   |
+|Agustín       |      70      |  APROBADO   |
+|Eduardo       |      77      |  APROBADO   |
+|Amanda        |      85      |  APROBADO   |
+|Berenice      |      66      |  REPROBADO  |
+|Fabiola       |      70      |  APROBADO   |
+|Pamela        |      90      |  APROBADO   |
+|Wendy         |      91      |  APROBADO   |
+|Zacarías      |      70      |  APROBADO   |
+|Manolo        |      68      |  REPROBADO  |
+|René          |      70      |  APROBADO   |
+|Paulina       |      71      |  APROBADO   |
+|Andrea        |      77      |  APROBADO   |
+|Javier        |      75      |  APROBADO   |
+|Enia          |      78      |  APROBADO   |
+|Patricia      |      75      |  APROBADO   |
+|Rómulo        |      86      |  APROBADO   |
+|Francisco     |      76      |  APROBADO   |
+|Jesús         |      78      |  APROBADO   |
+|Sharon        |      92      |  APROBADO   |
+|Fernanda      |      65      |  REPROBADO  |
+|Iliana        |      59      |  REPROBADO  |
+|Miriam        |      63      |  REPROBADO  |
+|Gerardo       |      62      |  REPROBADO  |
+|Mónica        |      80      |  APROBADO   |
+|Luis          |      86      |  APROBADO   |
+|Juan Antonio  |      70      |  APROBADO   |
+|Bernardo      |      65      |  REPROBADO  |

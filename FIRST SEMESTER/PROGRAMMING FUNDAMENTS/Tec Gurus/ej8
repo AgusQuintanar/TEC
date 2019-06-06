@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+def perimetro (r=0.0):
+perimetro=2*r*3.1416
+print perimetro
+
+
+
+

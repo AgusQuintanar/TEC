@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio 
+import re
+
+archivo_1 = open('archivoxml','w')
+num_temas = raw_input("Ingrese el numero de temas que desea")
+diccionario = {'num_temas':[']
+mitexto = ""
+
+    mitexto += l.strip()+"\n\nEste es mi texto adicional\n\n"
+archivo_1.write(mitexto)
+

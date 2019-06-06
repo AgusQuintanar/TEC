@@ -1,0 +1,37 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio 7
+
+mes = raw_input("Ingrese el numero de mes ")
+	if (mes < 1 or mes >12):
+		dia_mes = raw_input("Ingrese el numero de dia ")
+	else "Ingrese un valor entre 1 y 12"
+
+dia_semana = raw_input("Ingrese el numero de la semana ")
+hora = raw_input("Ingrese el numero de hora")
+segundos = raw_input("Ingrese el numero de segundos")
+
+mes={
+		1:'Enero', 
+		2:'Febrero',
+		3:'Marzo',
+		4:'Abril',
+		5:'Mayo',
+		6:'Junio',
+		7:'Julio',
+		8:'Agosto',
+		9:'Septiembre',
+		10:'Octubre',
+		11:'Noviembre',
+		12:'Diciembre'	}
+
+dia_semana={
+		1:'Lunes',
+		2:'Martes',
+		3:'Miercoles',
+		4: 'Jueves',
+		5: 'Viernes',
+		6: 'Sabado',
+		7:'Domingo'
+		}
+	

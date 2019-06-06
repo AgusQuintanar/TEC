@@ -1,0 +1,28 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio expresiones regulares
+
+import re
+
+archivo = open('Lorem_Ipsum.txt')
+todo = ''
+
+for linea in archivo:
+    todo += linea
+    
+if re.search(r'amet',todo):
+    print "Si esta todo en miniscula"
+    
+if re.search(r'AMET',todo):
+    print "Si esta todo en mayuscula"
+ 
+if re.search(r'AMET',todo,re.I): #bandera que permite ignorar entre mayusculas y minisculas (.I)
+    print "Si esta ignorando la capitalizacion"
+    
+print todo
+print "-------------------------------------------------------------------------------------------"
+todo2 = re.sub(r'(válido)','[Aquí fue mi reemplazo]',todo)
+todo
+print todo2
+archivo.close()
+

@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#Ejercicio numeros aleatorios
+import random
+longi = raw_input("Ingrese la longitud de su nueva contraseña ")
+base_char = 'qwertyuiopasdfghjklñzxcvbnm-_1234567890*'
+passw = ''
+while len(passw) <> int(longi):
+    passw += random.choice(base_char)
+print passw

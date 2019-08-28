@@ -46,7 +46,7 @@ public class NReinas {
     }
 
     public static void main(String[] args) {
-        NReinas tablero = new NReinas(4);
+        NReinas tablero = new NReinas(8);
         tablero.busca();
     }
 }

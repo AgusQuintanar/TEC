@@ -9,13 +9,13 @@ import java.awt.Dimension;
 import java.awt.Color;
 
 
-public class SierpinskiGasket extends JFrame{
+public class ACL extends JFrame{
     private Point a,
                   b,
                   c;
     private int nivel;
 
-    public SierpinskiGasket() {
+    public ACL() {
         super("Fractal Sierpinski Gasket");
         this.setPreferredSize(new Dimension(720,700));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -46,6 +46,8 @@ public class SierpinskiGasket extends JFrame{
             pintaLineas(g, a, b);
             pintaLineas(g, a, c);
             pintaLineas(g, b, c);
+            g.drawOval(x1, y1-(largo/2), largo, largo);
+
         }
         else {
             Point pmAB = this.puntoMedio(a,b),
@@ -56,11 +58,12 @@ public class SierpinskiGasket extends JFrame{
             this.pintaTriangulos(g, nivel-1, pmAB, b, pmBC);
             this.pintaTriangulos(g, nivel-1, pmAC, pmBC, c);
 
+
         }
     }
 
     public static void main(String[] args) {
-        SierpinskiGasket sg = new SierpinskiGasket();
+       ACL sg = new ACL();
     
         
     }

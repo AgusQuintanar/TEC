@@ -8,9 +8,9 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - SierpinskiGasket",
+            "name": "CodeLens (Launch) - YaMeHizeBolas",
             "request": "launch",
-            "mainClass": "SierpinskiGasket"
+            "mainClass": "YaMeHizeBolas"
         }
     ]
 }

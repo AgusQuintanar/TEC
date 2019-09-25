@@ -15,7 +15,7 @@ public class Fibonacci {
         
         if (tabla[n] == 1) return tabla[n];
         else {
-            tabla[n] =  calcularFibonacciOpt(n-2) + calcularFibonacciOpt(n-2);
+            tabla[n] =  calcularFibonacciOpt(n-2) + calcularFibonacciOpt(n-1);
             return tabla[n]; 
         }
     }

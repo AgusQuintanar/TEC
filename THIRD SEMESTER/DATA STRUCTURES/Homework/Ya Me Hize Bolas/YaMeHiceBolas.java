@@ -2,7 +2,6 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 
 /*******************************************
  * Agustin Salvador Quintanar de la Mora   *
@@ -46,6 +45,8 @@ import javax.swing.JPanel;
             this.pintaCirculos(g, nivel-1, x1+largo/2, y1, largo/2);
         }
     }
+
+
 
     public static void main(String[] args) {
         YaMeHiceBolas ymhb = new YaMeHiceBolas();
